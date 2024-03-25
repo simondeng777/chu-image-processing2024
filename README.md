@@ -8,7 +8,9 @@
 0205->Object Detection  
 0206->Pose Landmarks Detection  
   
-03->customization
+03->customization  
+  
+04->tabula-py
 
   
 
