@@ -5,6 +5,9 @@
 0202->image_embedder  
 0203->image_segmentation  
 0204->interactive_segmenter  
+0205->Object Detection  
+  
+
 
   
 
