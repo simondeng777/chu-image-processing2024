@@ -3,6 +3,9 @@
 02->Mediapipe  
 0201->image_classification  
 0202->image_embedder  
+0203->image_segmentation  
+0204->interactive_segmenter  
+
   
 
 
