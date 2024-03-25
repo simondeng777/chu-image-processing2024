@@ -1,5 +1,3 @@
-#https://storage.googleapis.com/mediapipe-tasks/image_classifier/labels.txt
-
 from matplotlib import pyplot as plt
 import math
 import mediapipe as mp
@@ -62,19 +60,25 @@ def display_batch_of_images(images, predictions):
 
 
 
-base_options = python.BaseOptions(model_asset_path='efficientnet_lite0.tflite')
-options = vision.ImageClassifierOptions(
-    base_options=base_options, max_results=4)
-classifier = vision.ImageClassifier.create_from_options(options)
+# Create options for Image Embedder
+base_options = python.BaseOptions(model_asset_path='mobilenet_v3_small.tflite')
+l2_normalize = True #@param {type:"boolean"}
+quantize = True #@param {type:"boolean"}
+options = vision.ImageEmbedderOptions(
+    base_options=base_options, l2_normalize=l2_normalize, quantize=quantize)
 
-images = []
-predictions = []
-for image_name in  ['a.jpg', 'b.jpg','c.jpg']:
-  
-  image = mp.Image.create_from_file(image_name)
-  classification_result = classifier.classify(image)  
-  images.append(image)
-  top_category = classification_result.classifications[0].categories[0]
-  predictions.append(f"{top_category.category_name} ({top_category.score:.2f})")
 
-display_batch_of_images(images, predictions)
+# Create Image Embedder
+with vision.ImageEmbedder.create_from_options(options) as embedder:
+
+  # Format images for MediaPipe
+  first_image = mp.Image.create_from_file('d.jpg')
+  second_image = mp.Image.create_from_file('e.jpg')
+  first_embedding_result = embedder.embed(first_image)
+  second_embedding_result = embedder.embed(second_image)
+
+  # Calculate and print similarity
+  similarity = vision.ImageEmbedder.cosine_similarity(
+      first_embedding_result.embeddings[0],
+      second_embedding_result.embeddings[0])
+  print(similarity)
