@@ -1,4 +1,4 @@
 01->Python-tesseract  with opencv
  
-02->
+02->Mediapipe
 
