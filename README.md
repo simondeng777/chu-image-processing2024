@@ -6,6 +6,8 @@
 0203->image_segmentation  
 0204->interactive_segmenter  
 0205->Object Detection  
+0206->Pose Landmarks Detection  
+0207->
   
 
 
