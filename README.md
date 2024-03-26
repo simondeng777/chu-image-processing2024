@@ -16,6 +16,8 @@
 0501->face_detector  
 0502->face_landmarker  
 0503->face_stylizer  
+0504->Gesture Recognizer  
+0505->hand_landmarker
 
 
 
