@@ -15,6 +15,8 @@
 05->Mediapipe  
 0501->face_detector  
 0502->face_landmarker  
+0503->face_stylizer  
+
 
 
 
