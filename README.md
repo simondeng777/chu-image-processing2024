@@ -12,7 +12,9 @@
   
 04->tabula-py  
   
-05->face and hand
+05->Mediapipe  
+0501->face_detector  
+
 
   
 
