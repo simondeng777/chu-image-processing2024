@@ -14,6 +14,8 @@
   
 05->Mediapipe  
 0501->face_detector  
+0502->face_landmarker  
+
 
 
   
