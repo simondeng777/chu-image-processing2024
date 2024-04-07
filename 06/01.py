@@ -6,12 +6,8 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python.components import processors
 from mediapipe.tasks.python import vision
-
-from flask import Flask, render_template, request, url_for, flash, redirect, abort
 import sqlite3
-import datetime
-from werkzeug.utils import secure_filename
-import os
+
 
 def get_db_connection():
     conn = sqlite3.connect('database.db')
