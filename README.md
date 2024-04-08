@@ -11,7 +11,7 @@ virtualenv 取一個名稱
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
 activate  
-------------------------------------------  
+
 01->Python-tesseract  with opencv  
 02->Mediapipe  
 0201->image_classification  
