@@ -29,18 +29,15 @@ def callback():
 
 @line_handler.add(MessageEvent, message=ImageMessage)
 def handle_message(event):
-    reader = easyocr.Reader(['ch_tra','en'])
+    reader = easyocr.Reader(['ch_tra','en'])    
     
     
-    
-    message_content = line_bot_api.get_message_content(event.message.id)
-    
+    message_content = line_bot_api.get_message_content(event.message.id)    
   
     with open('images/'+event.message.id+'.jpg', 'wb') as fd:
         getp=event.message.id
         
-        for chunk in message_content.iter_content():
-            
+        for chunk in message_content.iter_content():            
             fd.write(chunk)
             
     
@@ -51,9 +48,11 @@ def handle_message(event):
 
         reader = easyocr.Reader(['en'])
         text = reader.readtext(file.name)
-        for item in text:
+        for item in text:       
             print(item[1])
-            line_bot_api.reply_message(event.reply_token,TextSendMessage(text=item[1]))    
+            line_bot_api.reply_message(event.reply_token,TextSendMessage(text=item[1]))
+
+  
 
 
 @line_handler.add(MessageEvent, message=TextMessage)
@@ -62,7 +61,7 @@ def handle_message(event):
     if event.message.text == "1":        
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text='a'))        
+            TextSendMessage(text='a'))       
 
        
     else:
