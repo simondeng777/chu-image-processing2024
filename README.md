@@ -1,5 +1,5 @@
-虛擬環境安裝  
-  
+-虛擬環境安裝-  
+ 
 1->環境變數  
 C:\Users\L104\AppData\Local\Programs\Python\Python310\Scripts  
 C:\Users\L104\AppData\Local\Programs\Python\Python310  
@@ -11,8 +11,13 @@ virtualenv 取一個名稱
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
 activate  
-
-01->Python-tesseract  with opencv  
+  
+-相關-  
+line_develop->https://developers.line.biz/zh-hant/  
+ngrok->https://ngrok.com/  
+  
+-目錄-
+01->Python-tesseract、easyocr with opencv  
 02->Mediapipe  
 0201->image_classification  
 0202->image_embedder  
@@ -30,14 +35,4 @@ activate
 0505->hand_landmarker  
 06->save  
 0601->to sqlite  
-
-
-
-
-
-  
-
-
-  
-
 
