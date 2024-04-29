@@ -13,9 +13,9 @@ virtualenv 取一個名稱
 activate  
   
 -相關-  
-安裝Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
-安裝PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
-安裝EasyOCR->https://github.com/JaidedAI/EasyOCR  
+Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
+PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
+EasyOCR->https://github.com/JaidedAI/EasyOCR  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
   
