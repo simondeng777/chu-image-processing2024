@@ -16,7 +16,7 @@ activate
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
   
--目錄-
+-目錄-  
 01->Python-tesseract、easyocr with opencv  
 02->Mediapipe  
 0201->image_classification  
