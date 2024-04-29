@@ -13,6 +13,7 @@ virtualenv 取一個名稱
 activate  
   
 -相關-  
+安裝Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
   
