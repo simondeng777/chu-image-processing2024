@@ -14,6 +14,7 @@ activate
   
 -相關-  
 安裝Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
+安裝PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
   
