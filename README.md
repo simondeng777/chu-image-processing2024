@@ -22,7 +22,7 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 選擇 Google Sheet API 啟用  
     
 -目錄-  
-01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
+>01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
 >02->Mediapipe  
 >>0201->image_classification  
 >>0202->image_embedder  
