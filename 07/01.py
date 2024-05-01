@@ -1,9 +1,9 @@
 import pygsheets
 import pandas as pd
 
-gc = pygsheets.authorize(service_account_file='xxx.json')
+gc = pygsheets.authorize(service_account_file='XXXXXXXXXX.json')
 
-survey_url = 'https://docs.google.com/spreadsheets/d/xxxxx/'
+survey_url = 'https://docs.google.com/spreadsheets/d/XXXXXXXXXX/'
 
 
 sh = gc.open_by_url(survey_url)
