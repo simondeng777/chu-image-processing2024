@@ -31,7 +31,7 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 >>0205->Object Detection  
 >>0206->Pose Landmarks Detection  
 
->3->customization  
+>03->customization  
 >04->tabula-py  
 >05->Mediapipe  
 >>0501->face_detector  
@@ -39,7 +39,8 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 >>0503->face_stylizer  
 >>0504->Gesture Recognizer  
 >>0505->hand_landmarker  
-06->save to sqlite  
-07->save to linebot  
-08->save to webpage  
-09->save to google sheets  
+
+>06->save to sqlite  
+>07->save to linebot  
+>08->save to webpage  
+>09->save to google sheets  
