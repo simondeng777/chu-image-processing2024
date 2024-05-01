@@ -22,23 +22,23 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 選擇 Google Sheet API 啟用  
     
 -目錄-  
->01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
->02->Mediapipe  
->>0201->image_classification  
->>0202->image_embedder  
->>0203->image_segmentation  
->>0204->interactive_segmenter  
->>0205->Object Detection  
->>0206->Pose Landmarks Detection  
->03->customization  
->04->tabula-py  
->05->Mediapipe  
->>0501->face_detector  
->>0502->face_landmarker  
->>0503->face_stylizer  
->>0504->Gesture Recognizer  
->>0505->hand_landmarker  
->06->save to sqlite  
->07->save to linebot  
->08->save to webpage  
->09->save to google sheets  
+01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
+02->Mediapipe  
+[tab]02->image_classification  
+[tab]02->image_embedder  
+[tab]02->image_segmentation  
+[tab]02->interactive_segmenter  
+[tab]02->Object Detection  
+[tab]02->Pose Landmarks Detection  
+03->customization  
+04->tabula-py  
+05->Mediapipe  
+[tab]05->face_detector  
+[tab]05->face_landmarker  
+[tab]05->face_stylizer  
+[tab]05->Gesture Recognizer  
+[tab]05->hand_landmarker  
+06->save to sqlite  
+07->save to linebot  
+08->save to webpage  
+09->save to google sheets  
