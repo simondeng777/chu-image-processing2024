@@ -18,7 +18,9 @@ PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quicks
 EasyOCR->https://github.com/JaidedAI/EasyOCR  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
-  
+Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project=mymap-315901  
+選擇 Google Sheet API 啟用  
+    
 -目錄-  
 01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
 02->Mediapipe  
