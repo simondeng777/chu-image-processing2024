@@ -38,6 +38,7 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 0503->face_stylizer  
 0504->Gesture Recognizer  
 0505->hand_landmarker  
-06->save  
-0601->to sqlite  
-
+06->save to sqlite  
+07->save to linebot  
+08->save to webpage  
+09->save to google sheets  
