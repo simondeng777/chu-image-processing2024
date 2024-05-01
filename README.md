@@ -30,6 +30,7 @@ Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project
 >>0204->interactive_segmenter  
 >>0205->Object Detection  
 >>0206->Pose Landmarks Detection  
+
 >3->customization  
 >04->tabula-py  
 >05->Mediapipe  
