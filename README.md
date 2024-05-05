@@ -13,6 +13,7 @@ virtualenv 取一個名稱
 activate  
   
 -相關-  
+virtualenv->virtualenv -p python3.11 XXX  
 Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
 PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
 EasyOCR->https://github.com/JaidedAI/EasyOCR  
@@ -21,7 +22,7 @@ line_develop->https://developers.line.biz/zh-hant/
 ngrok->https://ngrok.com/  
 Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project=mymap-315901  
 選擇 Google Sheet API 啟用  
-virtualenv->virtualenv -p python3.11 XXX
+
     
 -目錄-  
 >01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
