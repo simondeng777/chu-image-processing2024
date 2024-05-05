@@ -13,7 +13,7 @@ virtualenv 取一個名稱
 activate  
   
 -相關-  
-virtualenv->virtualenv -p python3.11 XXX  
+virtualenv->virtualenv -p python3.10 XXX  
 Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
 PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
 EasyOCR->https://github.com/JaidedAI/EasyOCR  
