@@ -16,6 +16,7 @@ activate
 Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html  
 PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md  
 EasyOCR->https://github.com/JaidedAI/EasyOCR  
+Mediapipe->https://github.com/googlesamples/mediapipe  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
 Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project=mymap-315901  
