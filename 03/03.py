@@ -45,9 +45,9 @@ def visualize(
 
 
 
-IMAGE_FILE = 'card.jpg'
+IMAGE_FILE = 'box.jpg'
 # STEP 2: Create an ObjectDetector object.
-base_options = python.BaseOptions(model_asset_path='playcard.tflite')
+base_options = python.BaseOptions(model_asset_path='box.tflite')
 options = vision.ObjectDetectorOptions(base_options=base_options,
                                        score_threshold=0.5)
 detector = vision.ObjectDetector.create_from_options(options)
