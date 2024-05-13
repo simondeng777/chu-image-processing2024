@@ -21,6 +21,7 @@ EasyOCR->https://github.com/JaidedAI/EasyOCR
 Mediapipe->https://github.com/googlesamples/mediapipe  
 line_develop->https://developers.line.biz/zh-hant/  
 ngrok->https://ngrok.com/  
+Java JDK->https://www.oracle.com/tw/java/technologies/downloads/  
 Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project=mymap-315901  
 選擇 Google Sheet API 啟用  
 剪刀石頭布(rock-paper-scissors)，資料集->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
