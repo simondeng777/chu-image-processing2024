@@ -25,9 +25,11 @@ Java JDK->https://www.oracle.com/tw/java/technologies/downloads/
 Google Cloud Platform->https://console.cloud.google.com/welcome?hl=zh-TW&project=mymap-315901  
 選擇 Google Sheet API 啟用  
 剪刀石頭布(rock-paper-scissors)，資料集->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
+  
+
 ![image](info.jpg)
 
-    
+
 -目錄-  
 >01->Tesseract-OCR、EasyOCR、PaddleOCR with OpenCV  
 >02->Mediapipe  
