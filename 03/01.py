@@ -45,7 +45,7 @@ def visualize(
 
 
 
-IMAGE_FILE = 'dog01.jpeg'
+IMAGE_FILE = 'dog.jpeg'
 # STEP 2: Create an ObjectDetector object.
 base_options = python.BaseOptions(model_asset_path='dogs.tflite')
 options = vision.ObjectDetectorOptions(base_options=base_options,

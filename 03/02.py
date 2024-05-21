@@ -45,7 +45,7 @@ def visualize(
 
 
 
-IMAGE_FILE = 'cup.jpg'
+IMAGE_FILE = 'cups.jpg'
 # STEP 2: Create an ObjectDetector object.
 base_options = python.BaseOptions(model_asset_path='cups.tflite')
 options = vision.ObjectDetectorOptions(base_options=base_options,
