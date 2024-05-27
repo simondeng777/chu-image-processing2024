@@ -1,7 +1,8 @@
 #https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 import tabula
 
-pdf_path ='data.pdf'
+
+pdf_path ='data01.pdf'
 
 dfs = tabula.read_pdf(pdf_path,encoding='Big5',stream=True)
 # read_pdf returns list of DataFrames
@@ -26,6 +27,6 @@ dfs = tabula.read_pdf(pdf_path, area=[0,80,180,500], encoding='Big5',pages=2)
 print(dfs[0])
 
 
-tabula.convert_into(pdf_path, "data.json", output_format="json", stream=True)
-
-tabula.convert_into(pdf_path, "data.csv", output_format="csv", stream=True)
+#convert_into
+tabula.convert_into(pdf_path, "data01.json", output_format="json", stream=True,pages='all')
+tabula.convert_into(pdf_path, "data01.csv", output_format="csv", stream=True,pages='all')

@@ -1,7 +1,7 @@
 #https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 import tabula
 
-pdf_path = "spanning_cells.pdf"
+pdf_path = "data03.pdf"
 dfs = tabula.read_pdf(
     pdf_path,
     pages="1",
@@ -11,7 +11,6 @@ dfs = tabula.read_pdf(
     relative_area=True,
     multiple_tables=False,
 )
-print(dfs[0])
 
-tabula.convert_into(pdf_path, "spanning_cells.json", output_format="json", stream=True)
-tabula.convert_into(pdf_path, "spanning_cells.csv", output_format="csv", stream=True)
+print(dfs[0])
+dfs[0].to_csv('ok03.csv')
