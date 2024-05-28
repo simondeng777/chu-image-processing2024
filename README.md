@@ -49,6 +49,7 @@ smeshariks集料集->https://universe.roboflow.com/khalina/smeshariks/dataset/2
 >>0504->Gesture Recognizer  
 >>0505->hand_landmarker  
 >>0506->text_classifier  
+>>0507->Pose Landmarks from video  
 
 >06->save to sqlite  
 >07->save to google sheets  
