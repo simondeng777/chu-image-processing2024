@@ -6,7 +6,7 @@ import pytesseract
 
 app = Flask(__name__)
 
-
+#pytesseract.pytesseract.tesseract_cmd = r"D:\Chung_Hua_University\2024\Tesseract-OCR\tesseract.exe"
 @app.route('/')  
 def upload():  
     return render_template("index.html")  
