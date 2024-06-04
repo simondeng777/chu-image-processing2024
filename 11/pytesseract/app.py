@@ -5,9 +5,10 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageMess
 from io import BufferedReader
 import pytesseract
 
-
+#pytesseract.pytesseract.tesseract_cmd = r"D:\Chung_Hua_University\2024\Tesseract-OCR\tesseract.exe"
 
 app = Flask(__name__)
+
 line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN')
 line_handler = WebhookHandler('LINE_CHANNEL_SECRET')
 
@@ -28,8 +29,7 @@ def callback():
 
 
 @line_handler.add(MessageEvent, message=ImageMessage)
-def handle_message(event):
-     
+def handle_message(event):   
     
     
     message_content = line_bot_api.get_message_content(event.message.id)    
