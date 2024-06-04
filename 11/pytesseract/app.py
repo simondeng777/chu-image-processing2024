@@ -7,7 +7,6 @@ import pytesseract
 
 
 
-
 app = Flask(__name__)
 line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN')
 line_handler = WebhookHandler('LINE_CHANNEL_SECRET')
