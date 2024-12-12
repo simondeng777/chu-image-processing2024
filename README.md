@@ -1,3 +1,5 @@
+https://ai.google.dev/edge/mediapipe/framework/getting_started/troubleshooting?hl=zh-tw  
+
 02->https://reurl.cc/gezKnN  05->https://reurl.cc/965MRv  
   
 -虛擬環境安裝-  
