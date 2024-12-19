@@ -1,4 +1,8 @@
+-Windows 上的 Python DLL 載入失敗-
 https://ai.google.dev/edge/mediapipe/framework/getting_started/troubleshooting?hl=zh-tw  
+
+pip install msvc-runtime  
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022  
 
 02->https://reurl.cc/gezKnN  05->https://reurl.cc/965MRv  
   
